@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  postgres:
+    image: 'docker.io/postgres:13.2'
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: eis
