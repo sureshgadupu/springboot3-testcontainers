@@ -5,13 +5,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.0-RC1</version>
+		<version>3.1.0-RC2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>dev.fullstackcode.eis</groupId>
-	<artifactId>springboot3-dev-containers</artifactId>
+	<artifactId>springboot3-testcontainers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>springboot3-dev-containers</name>
+	<name>springboot3-testcontainers</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
@@ -25,10 +25,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-docker-compose</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.postgresql</groupId>
